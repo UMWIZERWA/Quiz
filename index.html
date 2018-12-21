@@ -28,11 +28,22 @@
             <form name="myform" method="post" onsubmit="return mytest()">
               <div class="form-group">
                     <p>1.Inside which HTML element do we put the JavaScript?<br>
-                    <input type="radio" name="question1" value="<js>">js<br>
-                    <input type="radio" name="question1" value="<scripting>">scripting<br>
-                    <input type="radio" name="question1" value="<script>">script<br>
-                    <input type="radio" name="question1" value="<javascript>">javascript<br>
+                    <input type="radio" name="question1" value="js">js<br>
+                    <input type="radio" name="question1" value="scripting">scripting<br>
+                    <input type="radio" name="question1" value="script">script<br>
+                    <input type="radio" name="question1" value="javascript">javascript<br>
                     </p>
+                    <p>2. What is the correct JavaScript syntax to change the content of the HTML element below?<br>
+                    <p id="demo">This is a demonstration.</p>
+                    <input type="radio" name="question2" value="document.getElement("p").innerHTML = "Hello World!";">document.getElement("p").innerHTML = "Hello World!";<br>
+                    <input type="radio" name="question2" value=" #demo.innerHTML = "Hello World!";"> #demo.innerHTML = "Hello World!";<br>
+                    <input type="radio" name="question2" value="document.getElementById("demo").innerHTML = "Hello World!";">document.getElementById("demo").innerHTML = "Hello World!";<br>
+                    <input type="radio" name="question2" value="document.getElementByName("p").innerHTML = "Hello World!";">document.getElementByName("p").innerHTML = "Hello World!";<br>
+                    </p>
+                    
+                   
+                    
+                    
               </div>
 </body>
 </html>
