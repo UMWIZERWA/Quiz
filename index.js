@@ -5,3 +5,8 @@ function mytest()
    var q3=document.forms["myform"]["question3"].value;
    var q4=document.forms["myform"]["question4"].value;
    var q5=document.forms["myform"]["question5"].value;
+   var marks=0;
+   if(q1=="script")
+    {
+     marks=marks+2;
+  }
