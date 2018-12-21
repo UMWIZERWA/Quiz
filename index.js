@@ -5,16 +5,17 @@ $(document).ready(function (){
         var q3 = $("input:radio[name=question3]:checked").val();
         var q4 = $("input:radio[name=question4]:checked").val();
         var q5 = $("input:radio[name=question5]:checked").val();
+        
         var marks=0;
         if(q1=="script")
         {
            marks=marks+5;
            }
-        if(q2=="document.getElementById("demo").innerHTML = "Hello World!";")
+        if(q2=="document.getElementById(q2value3")
         {
            marks=marks+5;
            }
-        if(q3=="The <"body"> section")
+        if(q3=="q3value1")
         {
            marks=marks+5;
         }
@@ -22,7 +23,7 @@ $(document).ready(function (){
         {
            marks=marks+5;
         }
-        if(q5=="alert("Hello World");")
+        if(q5=="q5value4;")
         {
            marks=marks+5;
         }

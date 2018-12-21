@@ -62,9 +62,11 @@ footer{
             text-emphasis: none;
             font-style: italic;
          }
-         .Output{
+         .output{
+             display: none;
             text-align: justify;
             font-size: 20px;
             color:red;
             text-align: center;
          }
+        
