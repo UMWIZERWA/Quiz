@@ -26,3 +26,9 @@ footer{
         text-align: center;
         font-style: italic;
      }
+     button{
+
+        padding: 15px 32px;
+        margin: 4px 2px;
+        
+        }
