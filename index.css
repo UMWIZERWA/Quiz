@@ -24,7 +24,7 @@ footer{
     }
     h1{
         text-align: center;
-        font-style: italic;
+        font-style: oblique;
      }
      button{
 
@@ -46,10 +46,8 @@ footer{
          }
          .submitter {
 
-            cursor: pointer;
-            text-decoration: none;
-          box-shadow: red;
-          background-color: #c30b0a;
+          cursor: pointer;
+          text-decoration: none;
           margin: 0;
           border: 0;
           outline: 0;
