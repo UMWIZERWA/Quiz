@@ -44,3 +44,17 @@ footer{
          h2{
             text-decoration-line: underline;
          }
+         .submitter {
+
+            cursor: pointer;
+            text-decoration: none;
+          box-shadow: red;
+          background-color: #c30b0a;
+          margin: 0;
+          border: 0;
+          outline: 0;
+          text-transform:uppercase;
+          height:40px;
+          width:95px;
+          border-radius:5px;
+         }
