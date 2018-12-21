@@ -58,3 +58,8 @@ footer{
           width:95px;
           border-radius:5px;
          }
+         #six{
+            text-align: center;
+            text-emphasis: none;
+            font-style: italic;
+         }
